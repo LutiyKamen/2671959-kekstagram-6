@@ -17,7 +17,7 @@ const fragment = document.createDocumentFragment();
 
 const renderPhotos = (objects) => {
   for (let i = 0; i < objects.length; i++) {
-    fragment.appendChild(renderPhoto(objects));
+    fragment.appendChild(renderPhoto(i));
   }
 
   pictures.appendChild(fragment);
