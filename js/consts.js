@@ -11,6 +11,8 @@ const SCALE_DEFAULT = 100;
 
 const ALERT_SHOW_TIME = 5000;
 
+const SERVER_URL = 'https://29.javascript.htmlacademy.pro/kekstagram';
+
 const RANDOM_PHOTOS_COUNT = 10;
 
 const FILE_TYPES = ['jpg', 'jpeg', 'png'];
@@ -25,6 +27,7 @@ export {
   SCALE_MAX,
   SCALE_DEFAULT,
   ALERT_SHOW_TIME,
+  SERVER_URL,
   RANDOM_PHOTOS_COUNT,
   FILE_TYPES
 };
