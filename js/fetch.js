@@ -1,8 +1,6 @@
-import { SERVER_URL } from './consts.js';
-
 const Urls = {
-  GET: `${SERVER_URL}/data`,
-  POST: `${SERVER_URL}/`,
+  GET: 'https://29.javascript.htmlacademy.pro/kekstagram/data',
+  POST: 'https://29.javascript.htmlacademy.pro/kekstagram/',
 };
 
 const sendRequest = (onSuccess, onError, method, body = null) => {
